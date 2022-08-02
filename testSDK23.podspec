@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
-  s.name             = 'ZMS'
+  s.name             = 'testSDK23'
   s.version          = '1.0.0'
   s.summary          = 'ZMS'
  
   s.description      = 'This is just a test SDK' 
-  s.homepage         = 'https://github.com/ZoomCar/ios-sdk'
+  s.homepage         = 'https://github.com/vishwas-mukund-zc/testSDK'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Zoomcar' => 'mobileapps@zoomcar.com' }
   s.source            = { :http => 'https://github.com/vishwas-mukund-zc/testSDK/raw/main/SDK.zip' }
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   # s.dependency 'zmsmpp', :path => '~/ZoomCar/ZmsMppDemo/mobile-zms-mpp/zmsmpp'  
    
   s.frameworks = 'Foundation', 'UIKit', 'CoreData'
-  s.vendored_frameworks = 'zmsKmm.framework'
+  #s.vendored_frameworks = 'zmsKmm.framework'
 
   s.xcconfig = {
     "LIBRARY_SEARCH_PATHS" => "\"$(PODS_ROOT)/cocos-binary\"",
