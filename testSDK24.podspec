@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'testSDK24'
-  s.version          = '1.0.11'
+  s.version          = '1.0.12'
   s.summary          = 'ZMS'
  
   s.description      = 'This is just a test SDK' 
@@ -11,11 +11,11 @@ Pod::Spec.new do |s|
  
   s.ios.deployment_target = '12.0'
  # s.source_files = 'testSDK24/**'
-   # s.resource_bundle = {
-   #      'ZMSBundle' => ['SDK/ZMS.framework/ZMSBundle.bundle/*.{xcassets,png,ttf,gif,json}']
-   # }
+   s.resource_bundle = {
+        'ZMSBundle' => ['SDK/ZMS.framework/ZMSBundle.bundle/*.{xcassets,png,ttf,gif,json}']
+   }
 
-  s.resources = ['SDK/ZMS.framework/ZMSBundle.bundle/*.{xcassets,png,ttf,gif,json}']
+  #s.resources = ['SDK/ZMS.framework/ZMSBundle.bundle/*.{xcassets,png,ttf,gif,json}']
 
   s.swift_version = '5.0'
   s.static_framework = true
