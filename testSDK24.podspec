@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'testSDK24'
-  s.version          = '1.2.1'
+  s.version          = '1.2.3'
   s.summary          = 'ZMS'
  
   s.description      = 'This is just a test SDK' 
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   # s.dependency 'zmsmpp', :path => '~/ZoomCar/ZmsMppDemo/mobile-zms-mpp/zmsmpp'  
    
   s.frameworks = 'Foundation', 'UIKit', 'CoreData'
-  s.vendored_frameworks = 'SDK/ZMS.framework'
+  s.vendored_frameworks = 'SDK/ZMS.framework, SDK/zmsKmm.framework'
   #s.resources = [ "SDK/ZMS.framework/ZoomcarSDKBundle.bundle/*.{nib,car}" ]
 
   s.xcconfig = {
