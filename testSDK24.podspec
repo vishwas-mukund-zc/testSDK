@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'testSDK24'
-  s.version          = '1.3.5'
+  s.version          = '1.3.7'
   s.summary          = 'ZMS'
  
   s.description      = 'This is just a test SDK' 
@@ -25,11 +25,12 @@ Pod::Spec.new do |s|
   s.dependency 'GoogleMaps', '6.0.1'
   s.dependency 'GooglePlaces', '6.0.0'
   s.dependency 'Analytics'
+  s.dependency 'testSDK25', '0.0.2'
   # s.dependency 'zmsmpp', :path => '~/ZoomCar/ZmsMppDemo/mobile-zms-mpp/zmsmpp'  
    
   s.frameworks = 'Foundation', 'UIKit', 'CoreData'
- # s.vendored_frameworks = 'SDK/ZMS.framework', 'SDK/zmsKmm.framework'
   s.vendored_frameworks = 'SDK/ZMS.framework'
+  #s.vendored_frameworks = 'SDK/ZMS.framework'
   #s.resources = [ "SDK/ZMS.framework/ZoomcarSDKBundle.bundle/*.{nib,car}" ]
 
   s.xcconfig = {
