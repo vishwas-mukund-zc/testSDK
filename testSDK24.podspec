@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'testSDK24'
-  s.version          = '1.5.1'
+  s.version          = '1.5.3'
   s.summary          = 'ZMS'
  
   s.description      = 'This is just a test SDK' 
@@ -34,8 +34,8 @@ Pod::Spec.new do |s|
   #s.resources = [ "SDK/ZMS.framework/ZoomcarSDKBundle.bundle/*.{nib,car}" ]
 
   s.xcconfig = {
-    "LIBRARY_SEARCH_PATHS" => "\"$(PODS_ROOT)/cocos-binary\"",
-    "HEADER_SEARCH_PATHS" => "\" $(PODS ROOT)/cocos-binary/include/**\"",
+   # "LIBRARY_SEARCH_PATHS" => "\"$(PODS_ROOT)/cocos-binary\"",
+   # "HEADER_SEARCH_PATHS" => "\" $(PODS ROOT)/cocos-binary/include/**\"",
     "OTHER_LDFLAGS" => "-lsqlite3"
    }
 
