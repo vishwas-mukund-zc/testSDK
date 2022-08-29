@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.dependency 'GoogleMaps', '6.0.1'
   s.dependency 'GooglePlaces', '6.0.0'
   s.dependency 'Analytics'
-  s.dependency 'testSDK25', '0.0.2'
+  #s.dependency 'testSDK25', '0.0.2'
   # s.dependency 'zmsmpp', :path => '~/ZoomCar/ZmsMppDemo/mobile-zms-mpp/zmsmpp'  
    
   s.frameworks = 'Foundation', 'UIKit', 'CoreData'
