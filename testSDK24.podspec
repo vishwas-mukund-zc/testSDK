@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'testSDK24'
-  s.version          = '1.5.4'
+  s.version          = '1.5.5'
   s.summary          = 'ZMS'
  
   s.description      = 'This is just a test SDK' 
